@@ -8,16 +8,21 @@ void setup() {
 }
 
 void draw() {
-//head
+//face
   fill(255, 218, 185);
   ellipse(300, 250, 360, 400);
+  
+//eyebrows
+  strokeWeight(7);
+  arc(200, 180, 90, 30, radians(200), radians(340));
+  arc(400, 180, 90, 30, radians(200), radians(340));
 
-//eye
+//eyes
   fill(250, 250, 250);
   ellipse(200, 200, 78, 40);
   ellipse(400, 200, 78, 40);
 
-//iris(part of eye
+//iris(part of eye)
   fill(130, 82, 45);
   ellipse(200, 200, 50, 50);
   ellipse(400, 200, 50, 50);
@@ -39,11 +44,22 @@ void draw() {
   fill(255,255,255);
   arc(300,300,140,60,radians(0),radians(180));
 
-// For natural hair, I thought that a finite loop that will make adequate amount of random arcs would help.
-// Therefore i used 'for' and 'if' loops. I've set the loop to go on until there are 200 arcs(or hairs) made.
-// I incremented the value of i by 1 every time one hair was placed so that the loop is able to count the number of hairs placed.
-// When 200 randomly placed hairs are made, I made the program to stop using 'else' so it would not process further and make more hair.
-// But it turned out to be less natural that expected so I tried another way.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   //for (int i = 0; i < height; i += 5) {
   //  if (i<500) {
   //    noFill();
