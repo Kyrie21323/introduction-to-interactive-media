@@ -1,3 +1,5 @@
+//Intro to IM Assignment 1 - Kyrie Park
+
 void setup() {
 //basic background setups for the pallete
   frameRate(1);
