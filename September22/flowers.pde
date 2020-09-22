@@ -7,8 +7,8 @@ void setup() {
   background(255, 180, 180);
 
   for (int i =0; i<50; i++) {
-    float flowerSize = random(0, 100);
-    float pedalSize = random(0, 100);
+    float flowerSize = random(0, 150);
+    float pedalSize = random(0, 50);
     strokeWeight(pedalSize);
     float flowerLocationX = random(150, 800);
     float flowerLocationY = random(150, 800);
