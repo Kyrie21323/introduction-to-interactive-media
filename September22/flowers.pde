@@ -18,6 +18,6 @@ void setup() {
         , flowerLocationY+flowerSize*sin(radians(36*z)));
     }
     fill(randomColor());
-    ellipse(flowerLocationX, flowerLocationY, flowerSize*0.6, flowerSize*0.6);
+    ellipse(flowerLocationX, flowerLocationY, flowerSize*0.8, flowerSize*0.8);
   }
 }
