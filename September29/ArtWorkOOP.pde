@@ -27,7 +27,7 @@ class randomStroke {
   void makePattern() {
     for (int i = 0; i<height/50; i++) {
       for (int z = 0; z<width/50; z++) {
-        int dice = int(random(0, 9));
+        int dice = int(random(0, 8));
         stroke(randomColor2());
         strokeWeight(5);
         if (dice == 0) {
