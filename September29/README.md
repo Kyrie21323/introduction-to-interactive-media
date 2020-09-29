@@ -1,3 +1,4 @@
 # Art Work - OOP
-![](media/MyArt1.png)
-![](media/MyArt.Vid.gif)
+![](media/BasicColor.png)
+![](media/RandomColor1.png)
+![](media/RandomColor2.png)
