@@ -1,17 +1,19 @@
+//Create class that makes random strokes throughout the pallete.
 class randomStroke {
   int move = 50;
   int colors = 0;
   randomStroke() {
   }
-
+  //Create three objects that returns a color for the strokes.
+  //First one is simple black
   int basicColor() {
     return color(0, 0, 0);
   }
-
+  //The second one returns a full-ranged random color
   int randomColor1() {
     return color(random(0, 255), random(0, 255), random(0, 255));
   }
-
+  //The third on returns either blue, yellow or red, which was inspired from Mondrian
   int randomColor2() {
     int dice = int(random(0, 3));
     if (dice==0) {
@@ -23,12 +25,14 @@ class randomStroke {
     }
     return colors;
   }
-
+  //Then we make a method that will randomly draw strokes.
   void makePattern() {
+    //I used for loops twice than functions as drawing random strokes on the horizontal line, 
+    //and then move one space below to fill the next horizontal line.
     for (int i = 0; i<height/50; i++) {
       for (int z = 0; z<width/50; z++) {
         int dice = int(random(0, 8));
-        stroke(randomColor2());
+        stroke(randomColor1());
         strokeWeight(5);
         if (dice == 0) {
           line(0+move*z, 25+move*i, 50+move*z, 25+move*i);
@@ -56,6 +60,7 @@ class randomStroke {
   }
 }
 
+//Call class
 randomStroke MyArt = new randomStroke();
 
 void setup() {
@@ -64,6 +69,7 @@ void setup() {
 }
 
 void draw() {
+  //reset background every time, and call the randomly made patterns and draw it.
   background(255);
   MyArt.makePattern();
 }
