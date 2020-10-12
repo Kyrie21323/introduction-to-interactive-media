@@ -3,6 +3,7 @@
 //With an image on the background, when mouse clicked, randomly choose a piece of the image(which is transparent),
 //and when mouse pressed, hold the randomly chosen piece of the image.
 //Inspired by puzzles, where we match the piece of an image to its place.
+//Source of data "https://processing.org/examples/transparency.html"
 PImage[] pieces = new PImage[12];
 float offsetx = 0;
 float offsety = 0;
