@@ -12,11 +12,10 @@ float offsety = 0;
 float easing = 0.05;
 int rand;
 
-//Basic setup for canvas, and call image "ShepardFairy.jpg", and set whole image asbackground.
+//Basic setup for canvas, and call image "ShepardFairy.jpg".
 void setup() {
   size(564, 752);
   photo = loadImage("ShepardFairy.jpg");
-  image(photo, 0, 0);
 }
 
 //Set function mouseClicked to generate random number btw 0 and 11; later user for choosing random pieces.
@@ -26,6 +25,8 @@ void mouseClicked() {
 
 void draw() {
   PImage imageParts;
+  //Set the whole image as background.
+  image(photo, 0, 0);
   //use nested loops to save each pieces in the array.
   for (int col = 0; col <= 3; col++) {
     for (int row = 0; row <= 2; row++) {
