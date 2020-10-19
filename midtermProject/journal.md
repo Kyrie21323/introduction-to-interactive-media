@@ -10,13 +10,13 @@ Screen snake is a single player game where the player uses the direction keys on
 2. Set the whole draw function into a while loop -> Let the user continue the game when dead by pressing the enter key, and end the loop when user clicks the quit button on the canvas.
 
 3. Make a three functions to make the starting page of the game.
-   >Draw shapes to design the starting page (Haven't come up with an idea yet, but probably will draw a snake).
-   >Make buttons that start the game and show informations of how to play (Each button for one function).
-    >If the button for showing information is clicked, show a text of instructions and also images to support the user to understand the directions.
+   >1)Draw shapes to design the starting page (Haven't come up with an idea yet, but probably will draw a snake).
+   2)Make buttons that start the game and show informations of how to play (Each button for one function).
+   3)If the button for showing information is clicked, show a text of instructions and also images to support the user to understand the directions.
 
 4. Make a function that makes the ending page of the game.
-   >Get a string into the function, and if the string is equal to 'wall', show the end page with a text showing "You died because you hit the wall."
-    >If the string is equal to 'bite', the text should show 'You died because you have bitten yourself."
+   >1)Get a string into the function, and if the string is equal to 'wall', show the end page with a text showing "You died because you hit the wall."
+   2)If the string is equal to 'bite', the text should show 'You died because you have bitten yourself."
 
 5. Make four functions that change the direction of the snake if the direction key is pressed.
 
