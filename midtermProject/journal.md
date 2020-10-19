@@ -10,7 +10,7 @@ Screen snake is a single player game where the player uses the direction keys on
 2. Set the whole draw function into a while loop -> Let the user continue the game when dead by pressing the enter key, and end the loop when user clicks the quit button on the canvas.
 
 3. Make a three functions to make the starting page of the game.
-   -Draw shapes to design the starting page (Haven't come up with an idea yet, but probably will draw a snake).
+   >Draw shapes to design the starting page (Haven't come up with an idea yet, but probably will draw a snake).
    -Make buttons that start the game and show informations of how to play (Each button for one function).
     -If the button for showing information is clicked, show a text of instructions and also images to support the user to understand the directions.
 
