@@ -10,9 +10,9 @@ I have not been able to figure out how to change the data sheet into a .csv file
 
 The problem with my .csv file
 ![](Media/data.png)
-The outcome of my error in .csv file
+The outcome due to my error in .csv file
 ![](Media/logicError.png)
 
 ## References
 The data source for my .csv file is from [this website](https://www.basketball-reference.com/players/i/irvinky01.html).
-Other references was from [Prof.Aaron Sherwood's Github repository](https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/textExamples/splitCommas/splitCommas.pde)
+Another reference for spliting lists after getting a data from .csv file was from [Prof.Aaron Sherwood's Github repository](https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/textExamples/splitCommas/splitCommas.pde)
