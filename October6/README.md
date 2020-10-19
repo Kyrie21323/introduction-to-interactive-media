@@ -1,6 +1,12 @@
 # Creating a data visualization or a generative text
 ## Overall Concept
-A data visualization for two point shoots and three point shoots made, attempted, and the percentage for both shoots.
+A data visualization for two point shoots and three point shoots made, attempted, and the percentage for making shoots based on Kyrie Irving's each season played.
+
+## Process
+After getting data from the .csv file, save it into different lists, one for the header, one for the number of shots made and attempted(int), and one for the percentage of shots created(float).
+Draw one of Kyrie Irving's season including 3 point shots made, attempted, and the percentage of shots made. Then same for the 2 point shootings.
+Put all in a for loop, until all of the seasons are drawn.
+
 
 ## Results
 ![](Media/stats.png)
