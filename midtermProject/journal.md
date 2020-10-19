@@ -1,4 +1,4 @@
-# Journal for Midterm Project: Make A Game!
+# Journal for Midterm Project: Make A Game - Screen Snake!
 ## Plan
 ### Preliminary Description
 I have been planning my midterm project to be a well-known game "Screen Snake"
