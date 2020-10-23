@@ -31,5 +31,10 @@ Screen snake is a single player game where the player uses the direction keys on
 
 8. In the draw function, call the game function and put it in a while loop, and break the loop if and only if what I said in step 2.
 
-## Journal on Progress
+## Journal of Progress
 ### Oct. 19th
+I tried to find images of the snake's head and body, but instead, I decided to use shapes for both head and body, and images for the design of the starting page.
+Also, instead of letting the user to press a key on the keyboard, I have decided to let them press buttons that are visually made in the game so that the user may choose to view the instructions, play the game, or replay the game when dead. The idea of letting the user to use mouse instead of keys came from the fact that I am not able to make functions that are activated when a key is pressed ^^;.
+I have been able to finish the starting page including two buttons - 'How to play', and 'Start'. The functions of the buttons worked at the end of the day, but I had a hard time using 'mouseClicked' functions and if statements with mouseX and mouseY variables since there was an error that boolean and integers cannot be compared. I don't know the exact reason why it didn't work, but I've tried different algoriithms, and now it works with the coding style i have now.
+When the mouse is clicked on top of the button visualized on the starting page, I was able to successfully change the page. By clearing the whole canvas and drawing another image, I could check that the mouseClicked function works, and tomorrow, I will be designing the instruction page as well as the how to game will work.
+Eventhough I was able to avoid using the key pressed fuction for the starting page, I will eventually have to know how it works since screen snake is a game where the user constantly types the direction key to move the snake. Im worried how I will get thorugh this phase.
