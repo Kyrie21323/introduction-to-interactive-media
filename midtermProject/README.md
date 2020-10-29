@@ -24,3 +24,11 @@ I have fronted a lot of difficulties througout coding this game. One of two main
 
 ## References
 https://processing.org/examples/button.html
+https://processing.org/reference/text_.html
+https://processing.org/reference/mouseX.html
+https://processing.org/reference/pmouseX.html
+https://processing.org/reference/clear_.html
+https://processing.org/reference/keyPressed_.html
+https://forum.processing.org/two/discussion/8071/why-do-i-get-a-nullpointerexception
+https://forum.processing.org/two/discussion/10378/can-t-import-the-sound-library
+https://www.zapsplat.com/sound-effect-category/game-sounds/
