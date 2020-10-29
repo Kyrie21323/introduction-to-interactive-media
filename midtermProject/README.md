@@ -21,3 +21,6 @@ I have fronted a lot of difficulties througout coding this game. One of two main
 ## What Could Have Been Done
 1. I could have included two more functions to make the game loop more advanced. I could have let the user choose the difficulty of the game(which is the speed of the snake), and change the fps rate according to what the user chooses. Easy could be 5 fps, medium as 10, and hard as 20.
 2. Another thing was that my game screen was a little bit boring. I could have made the background more interesting via using fill(), and check if the user pressed the space bar to change the background to a random color everytime the key is pressed.
+
+## References
+https://processing.org/examples/button.html
