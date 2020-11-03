@@ -28,6 +28,7 @@ void loop() {
   Serial.println(buttonState2);
   Serial.println(buttonState3);
   delay(1);// delay in between reads for stability// delay in between reads for stability
+
   // if and else statements turning on and off lights when the corresponding buttons are pressed
   if (buttonState1 == LOW) {    // for button 1 not being pressed
     digitalWrite(9, HIGH);      // light 3 is turned on
@@ -38,12 +39,16 @@ void loop() {
       digitalWrite(7, LOW);     // light 1 is turned off
     }
   }
+ 
+  delay(1);// delay in between reads for stability// delay in between reads for stability
   if (buttonState2 == LOW) {    // for button 2 not being pressed
     digitalWrite(8, LOW);       // light 2 is turned off
   } else {                      // for button 2 being pressed
     digitalWrite(8, HIGH);      // light 2 is turned on
     digitalWrite(9, LOW);       // light 3 is turned off
   }
+ 
+  delay(1);// delay in between reads for stability// delay in between reads for stability
   if (buttonState3 == LOW) {    // for button 3 not being pressed
     digitalWrite(7, LOW);       // light 1 is turned off
   } else {                      // for button 3 being pressed
