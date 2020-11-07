@@ -7,7 +7,7 @@ So what I thought at first was to make two buttons(1' and 2') light up a same LE
 ![](media/Schematic.jpeg)
 
 ## Result
-![](media/play.mp4)
+[https://youtu.be/vFk9_y23JMs](Here)
 
 ## Problems Faced
 I had a hard time pluggin in the switches... I was worried that the copper part might break and it actually took a while for me to safely plug in all three of them.
