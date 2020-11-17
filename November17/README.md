@@ -6,7 +6,7 @@ From the moment we learned how to use buzzers during class, I thought that makin
 ![](media/Schematic3.jpeg)
 
 ## Result
-![](media/picture1.jpg)
+![](media/picture1.jpeg)
 //[Click to watch me play.](https://youtu.be/UuS4i0LGSjE)
 
 ## Problems Faced
