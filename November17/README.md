@@ -10,7 +10,8 @@ From the moment we learned how to use buzzers during class, I thought that makin
 ([Click to watch me play.](https://youtu.be/UuS4i0LGSjE))
 
 ## Problems Faced
-I lost my piezo buzzer when i visited my grandparent's house so i wasn't able to check if either my code or the board works. Fortunately I was able to buy one in korea via online and it is arriving 11/18 (tomorrow), so I will be uploading my assignment after it is delivered.
+I lost my piezo buzzer when i visited my grandparent's house so i wasn't able to check if either my code or the board works. Fortunately I was able to buy one in Korea via online and it is arriving 11/18 (tomorrow), so I will be uploading my assignment after it is delivered.
+![](media/onlinePurchase.jpeg)
 
 ## References
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody
