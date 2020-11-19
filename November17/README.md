@@ -7,6 +7,8 @@ From the moment we learned how to use buzzers during class, I thought that makin
 
 ## Result
 ![](media/picture1.jpeg)
+After the buzzer came
+![](media/photo.jpeg)
 ([Click to watch me play.](https://youtu.be/UuS4i0LGSjE))
 
 ## Problems Faced
