@@ -6,9 +6,9 @@ From the moment we learned how to use buzzers during class, I thought that makin
 ![](media/schematic3.jpeg)
 
 ## Result
-![](media/picture1.jpeg)
-After the buzzer came
-![](media/photo.jpeg)
+![](media/picture1.jpeg)<br />
+After the buzzer came<br />
+![](media/photo.jpeg)<br />
 ([Click to watch me play.](https://youtu.be/UuS4i0LGSjE))
 
 ## Problems Faced
