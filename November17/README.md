@@ -17,4 +17,4 @@ The photo below is in Korean, but its a reciept!
 ![](media/onlinePurchase.jpeg)
 
 ## References
-https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody
+https://github.com/jhongover9000/intro2im/blob/master/September29/IM_Assignment3v2.pde
