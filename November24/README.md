@@ -7,7 +7,8 @@ After getting permission to use codes for a mini game coded by Joseph, I decided
 
 ## Result
 ![](media/picture.jpeg)<br />
-([Click to watch me play.](https://youtu.be/iymA2m_SmtY))
+([Click to watch me play on screen.](https://youtu.be/vUCCBjOdLhI))
+([Click to watch me play on arduino.](https://youtu.be/vUCCBjOdLhI))
 
 ## Problems Faced
 I am not sure how to get a value from arduino and send it to processing yet. It is confusing... If i knew how it worked, the game must have be recreated efficiently.
