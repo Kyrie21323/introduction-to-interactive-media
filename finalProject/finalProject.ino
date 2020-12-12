@@ -1,4 +1,13 @@
+//IM Assignment Final: Grow a plant
+//Kyrie Park
+//Description: 
+//This is a simple game to grow a plant by giving water, sunlight and killing bugs that are randomly made during the game is run. There is not ending for this
+//game, and it will only end if the plant is out of leaves which is caused due to increasing bugs. There will be three buttons, yellow, red and blue where each
+//represents giving sunlight, killing bugs, and giving water.
 
+//===================================================================================================================================
+
+//Global variables
 const int yellowButton = 13;    //yellow button
 const int redButton = 12;  //red button
 const int blueButton = 11;   //blue button
@@ -13,12 +22,14 @@ void setup() {
 }
 
 void loop() {
+  // print all serials in one line where each values are seperated by commas.
+  // each line represents all values in each loop
   Serial.print(digitalRead(yellowButton));
   Serial.print(",");
   Serial.print(digitalRead(redButton));
   Serial.print(",");
   Serial.println(digitalRead(blueButton));
-//  Serial.println(digitalRead(redPin));
+  
   // see if there's incoming serial data:
   if (Serial.available() > 0) {
     // read the oldest byte in the serial buffer:
