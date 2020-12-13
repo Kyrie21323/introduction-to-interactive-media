@@ -16,7 +16,9 @@ There is no winning in this game. It is an endless game where the user can grow 
 ## The Result
 ![](mediaForREADME/board1.jpeg)
 ![](mediaForREADME/board2.jpeg)
+
 [This is a video of me playing the game.](https://youtu.be/6S4vNLqhVjU)
+
 [This is a video of how the game processes with no control by the user.](https://youtu.be/UBSG5LHPg1Q)
 
 ## Problems
