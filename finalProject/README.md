@@ -11,14 +11,12 @@ So, the over all concept of the game is simple - you just have to let it rain an
 There is no winning in this game. It is an endless game where the user can grow a plant up until it has 1000 leaves (which is very unlikely to happen). On the other hand, if the plant dies due to bugs eating off the leaves, the game will end.
 
 ## Schematic
-![](schematicfinal.jpeg)
+![](mediaForREADME/schematicfinal.jpeg)
 
 ## The Result
-![](board1.jpeg)
-![](board2.jpeg)
-
+![](mediaForREADME/board1.jpeg)
+![](mediaForREADME/board2.jpeg)
 [This is a video of me playing the game.](https://youtu.be/6S4vNLqhVjU)
-
 [This is a video of how the game processes with no control by the user.](https://youtu.be/UBSG5LHPg1Q)
 
 ## Problems
