@@ -43,8 +43,7 @@ Since the draw function in processing acts as a loop and updates continuously, i
 I've tried numerous if statements, but the best I could get was this:
 
 ```
-if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { //for every three leaves made, set the number of bugs as one third of the number of leaves
-        
+if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { 
       }
 ```
 
@@ -67,9 +66,8 @@ for (int count = 0; count < countLeaf; count ++) {
 ### Incrementing number of bugs
 What I noticed was that I could just set the number of bugs as one third of the number of leaves instead of incrementing, so that no matter how many loops goes through, the number of bugs will always be proportional to the number of leaves.
 ```
-if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { //for every three leaves made, set the number of bugs as one third of the number of leaves
-        countBug = countLeaf/3;               //incrementing the number of bugs are impossible because it will increase number of bugs rapidly when the loop goes on
-                                              //and the number of leaves stays at three
+if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) {
+        countBug = countLeaf/3;            
       }
 ```
 
