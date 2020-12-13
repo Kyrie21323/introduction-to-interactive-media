@@ -34,6 +34,7 @@ On processing, it also calls all three values, but for some reason, only the thi
 ![](mediaForREADME/processing.jpeg)
 
 ### Making Leaves
+It was hard for me to make the leaves both on the right and on the left. More over, since my game includes a function where the leaves disappear due to the existence of bugs, I had a hard time how to get through this.
 
 
 ### Incrementing number of bugs
@@ -41,14 +42,13 @@ I wanted to increment the number of bugs depending on how much leaves there were
 Since the draw function in processing acts as a loop and updates continuously, it was difficult for me to figure out how to increment once whenever three leaves where made.
 I've tried numerous if statements, but the best I could get was this:
 
-'''
-if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { //for every three leaves made, set the number of bugs as one third of the number of        leaves
-        countBug = countLeaf/3;               //incrementing the number of bugs are impossible because it will increase number of bugs rapidly when the loop goes on
-                                              //and the number of leaves stays at three
+```
+if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { //for every three leaves made, set the number of bugs as one third of the number of leaves
+        
       }
-'''
-      
-### Calculating Plant Growth Rate
+```
+
+But if I incremented the number of bugs like above, it would increment a lot due to the loop that the draw function has. There will be multiple times where the number of leaves will stay at 3, 6 or 9, and for that time the number of bugs will continue to increment. For example, if the loop goes 50 times when the number of leaves are 3, the bug numbers will be 50 and not 1.
 
 
 ## Solutions
@@ -56,7 +56,22 @@ if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { //for every thre
 Still not solved... the button used to work, but since i've changed some code for the pgr, it doesn't work. Professor Shiloh suggested that it might be a wire problem, but since arduino gets a correct value when the button is pressed, I think its a problem something that I cannot think of.
 
 ### Making Leaves
+The solution was easy. I just had to make an array for all the values that mattered to a single leaf - the x position, y position, and the direction of the leaf. Later when  I print the leaf, I would just use a for loop and print and image like below:
+
+```
+for (int count = 0; count < countLeaf; count ++) {
+    image(leaves[count], leafPosx[count], leafPosy[count]);
+  }
+```
 
 ### Incrementing number of bugs
+What I noticed was that I could just set the number of bugs as one third of the number of leaves instead of incrementing, so that no matter how many loops goes through, the number of bugs will always be proportional to the number of leaves.
+```
+if (countLeaf / 3 > 0 && countLeaf > 0 && countLeaf % 3 == 0) { //for every three leaves made, set the number of bugs as one third of the number of leaves
+        countBug = countLeaf/3;               //incrementing the number of bugs are impossible because it will increase number of bugs rapidly when the loop goes on
+                                              //and the number of leaves stays at three
+      }
+```
 
-### Calculating Plant Growth Rate
+## As I finish the semester
+It was a wonderful semester - although it wasn't a perfect uni life i've been expecting my whole life due to COVID-19 - I was able to learn a very interesting field and meet wonderful professors and classmates. I don't think I could have started my uni life better without this class.
