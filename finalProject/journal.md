@@ -181,4 +181,43 @@ yellowButtonValue = buttons[0];
 redButtonValue = buttons[1];
 blueButtonValue = buttons[2];
 ```
+In another function I made, checkBooleans(), I checked the three booleans and the values of the buttons. If any of the three buttons are pressed, it would change the corresponding boolean to true.
+```
+void checkBooleans() {
+  if (yellowButtonValue == 1) {
+    itShines = true;
+  } else {
+    itShines = false;
+  }
+  if (redButtonValue == 1) {
+    itKills = true;
+  } else {
+    itKills = false;
+  }
+  if (blueButtonValue == 1) {
+    itRains = true;
+  } else {
+    itRains = false;
+  }
+}
+```
+Lastly in draw(), I first called the checkBooleans() function and for each boolean itShines, itKills, itRains, are true, the corresponding function will activate.
+For itShines, an image of a sun will appear and the 'increase' will increment by 30.
+For itKills, an image of a bug spray will appear and it will decrease the number of bugs by one if and only if the bugs exist.
+For itRains, an image of rain will appear and the 'increase' will increment by 20.
 
+It seems like I'm done..!! But I'm not. There is one error from my code or arduino i don't know which one.
+The processing does not communicate with the blue button on the arduino. I am not sure what exactly the problem is because on the serial monitor on arduino, it works fine, showing all values change.
+![](mediaForREADME/screenMonitor1.jpeg)
+![](mediaForREADME/screenMonitor2.jpeg)
+![](mediaForREADME/screenMonitor3.jpeg)
+![](mediaForREADME/screenMonitor4.jpeg)
+![](mediaForREADME/screenMonitor5.jpeg)
+
+On processing, it also calls all three values, but for some reason, only the third value(the blue button's value) does not change when it is pressed.
+![](mediaForREADME/processing.jpeg)
+
+Professor Shiloh suggested that it might be a wire problem, but since arduino gets a correct value when the button is pressed, I think its a problem something that I cannot think of.
+Without the blue button error being solved, I had to end my final project. It is a bummer that the blue button won't work, but I guess the game worked fine with out one function.
+
+Thank you!
