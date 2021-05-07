@@ -1,6 +1,6 @@
 # Final Project - Grow a Plant- Journal
 
-[Day 1](journal.md#Day 1); [Day 2](journal.md#day 2); [Day 3](journal.md#day-3); [Day 4](journal.md#day-4); [Day 5](journal.md#day-5)
+[Day 1](journal.md#Day_1); [Day 2](journal.md#day 2); [Day 3](journal.md#day-3); [Day 4](journal.md#day-4); [Day 5](journal.md#day-5)
 
 ## The Plan I Had Before
 During the class on the day we were announce our final project theme and idea, I presented a mini game similar to ttthe movie maze runner where the player is unable to see the whole map, and monsters are generated during the game. I wanted a game with two simple buttons where one meant attack and the other defend. Sounds like a very fun game, but it came to an end when I noticed that making a random maze, lettting the user see only the path he/she went through would take too much time for me. So I came up with another idea - growing a plant.
